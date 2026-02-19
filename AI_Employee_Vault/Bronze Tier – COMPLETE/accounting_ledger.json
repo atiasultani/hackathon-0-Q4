@@ -1,0 +1,22 @@
+[
+  {
+    "entry_id": "ACC-2-1771515371",
+    "payment_id": 2,
+    "amount": 250.0,
+    "vendor": "Software Vendor Inc.",
+    "description": "Annual software subscription license",
+    "date": "2026-02-19 20:36:11.958462",
+    "category": "software_subscription",
+    "status": "posted"
+  },
+  {
+    "entry_id": "ACC-3-1771516966",
+    "payment_id": 3,
+    "amount": 250.0,
+    "vendor": "Software Vendor Inc.",
+    "description": "Annual software subscription license",
+    "date": "2026-02-19 21:02:46.009596",
+    "category": "software_subscription",
+    "status": "posted"
+  }
+]

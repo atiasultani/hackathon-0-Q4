@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "c0772eb13151d3e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c94f42250b449ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "355f22cc5365020f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SYSTEM_ARCHITECTURE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SYSTEM_ARCHITECTURE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c95937a49353030a",
+    "type": "split",
+    "children": [
+      {
+        "id": "e02685ed0c4a0d5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "569c5f64e37adfe7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c0b3b862ec9b6195",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "14d849d2d7316a5e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "989f8a2fd6884e9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a254b911cee06b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ff90b14a7257119",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pending_Approval/APPROVAL_PAY_SOFTWARE_SUBSCRIPTION.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for APPROVAL_PAY_SOFTWARE_SUBSCRIPTION"
+            }
+          },
+          {
+            "id": "bf03ea7a57808be1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Pending_Approval/APPROVAL_PAY_SOFTWARE_SUBSCRIPTION.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from APPROVAL_PAY_SOFTWARE_SUBSCRIPTION"
+            }
+          },
+          {
+            "id": "2577d667e00ff7d3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b4057382cf6db15b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2c443fdb785ca22f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Pending_Approval/APPROVAL_PAY_SOFTWARE_SUBSCRIPTION.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of APPROVAL_PAY_SOFTWARE_SUBSCRIPTION"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "355f22cc5365020f",
+  "lastOpenFiles": [
+    "Welcome.md",
+    "SYSTEM_ARCHITECTURE.md",
+    "receipt_3_1771516966.json",
+    "CLAUDE.md",
+    "Dashboard.md.md",
+    "README.md",
+    "Done/APPROVAL_INVOICE_Client_A_Sent.md",
+    "CLAUDE.md.tmp.5810.1771515630188",
+    "README.md.tmp.5810.1771515452305",
+    "__pycache__/workflow_dashboard.cpython-312.pyc",
+    "__pycache__/workflow_dashboard.cpython-312.pyc.126209539117008",
+    "quick_summary.py",
+    "quick_summary.py.tmp.5810.1771515429843",
+    "workflow_dashboard.py",
+    "workflow_dashboard.py.tmp.5810.1771515398895",
+    "Approved/APPROVAL_PAY_SOFTWARE_SUBSCRIPTION.md",
+    "accounting_ledger.json",
+    "Needs_Action/PAY_SOFTWARE_SUBSCRIPTION.md",
+    "Logs/PAY_SOFTWARE_SUBSCRIPTION_Log.md",
+    "Logs/INVOICE_Client_A_Sent_Log.md",
+    "Done/INVOICE_Client_A_Plan.md",
+    "Done/INVOICE_Client_A.md",
+    "Plans/PAY_SOFTWARE_SUBSCRIPTION_Plan.md",
+    "Approved/APPROVAL_INVOICE_Client_A.md",
+    "Plans/INVOICE_Client_A_Plan.md",
+    "Company_Handbook.md.md",
+    "Needs_Action/INVOICE_Client_A.md",
+    "Business_Goals.md.md"
+  ]
+}
