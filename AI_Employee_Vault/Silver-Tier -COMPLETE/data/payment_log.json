@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "amount": 250.0,
+    "vendor": "Software Vendor Inc.",
+    "description": "Annual software subscription license",
+    "requester": "John Doe",
+    "status": "paid",
+    "submitted_date": "2026-02-19 20:32:37.159116",
+    "approver": "Jane Smith",
+    "approved_date": "2026-02-19 20:32:37.164135",
+    "processed_date": "2026-02-19 20:32:37.168943"
+  },
+  {
+    "id": 2,
+    "amount": 250.0,
+    "vendor": "Software Vendor Inc.",
+    "description": "Annual software subscription license",
+    "requester": "John Doe",
+    "status": "paid",
+    "submitted_date": "2026-02-19 20:36:11.931257",
+    "approver": "Jane Smith",
+    "approved_date": "2026-02-19 20:36:11.934619",
+    "processed_date": "2026-02-19 20:36:11.939907"
+  },
+  {
+    "id": 3,
+    "amount": 250.0,
+    "vendor": "Software Vendor Inc.",
+    "description": "Annual software subscription license",
+    "requester": "John Doe",
+    "status": "paid",
+    "submitted_date": "2026-02-19 21:02:45.986388",
+    "approver": "Jane Smith",
+    "approved_date": "2026-02-19 21:02:45.990582",
+    "processed_date": "2026-02-19 21:02:45.994566"
+  }
+]

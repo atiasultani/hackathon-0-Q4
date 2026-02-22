@@ -1,0 +1,11 @@
+{
+  "receipt_id": "REC-3-1771516966",
+  "payment_id": 3,
+  "amount": 250.0,
+  "vendor": "Software Vendor Inc.",
+  "description": "Annual software subscription license",
+  "requester": "John Doe",
+  "approver": "Jane Smith",
+  "payment_date": "2026-02-19 21:02:45.994566",
+  "status": "paid"
+}

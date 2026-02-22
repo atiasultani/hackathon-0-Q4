@@ -1,0 +1,104 @@
+[
+  {
+    "id": "ce3fa0ad-78ab-4987-8e55-65574dc32069",
+    "payment_id": 2,
+    "action": "vendor_notification",
+    "timestamp": "2026-02-19 20:36:11.944740",
+    "vendor": "Software Vendor Inc.",
+    "amount": 250.0,
+    "status": "sent"
+  },
+  {
+    "id": "056fbcb2-b02c-44ed-b514-ec7d5fa73cf9",
+    "payment_id": 2,
+    "action": "receipt_generation",
+    "timestamp": "2026-02-19 20:36:11.953830",
+    "receipt_file": "receipt_2_1771515371.json",
+    "status": "generated"
+  },
+  {
+    "id": "c8aa24ee-35c9-4781-a87a-87b6fe59cd6d",
+    "payment_id": 2,
+    "action": "accounting_update",
+    "timestamp": "2026-02-19 20:36:11.962932",
+    "accounting_entry_id": "ACC-2-1771515371",
+    "status": "completed"
+  },
+  {
+    "notification_id": "6dc2e4bb-9ffd-4c1e-8ed9-dd2db21b9b5a",
+    "payment_id": 2,
+    "action": "internal_notification",
+    "timestamp": "2026-02-19 20:36:11.968304",
+    "recipients": [
+      "John Doe",
+      "Jane Smith"
+    ],
+    "subject": "Payment #2 Completed: $250.0 to Software Vendor Inc.",
+    "status": "sent"
+  },
+  {
+    "id": "d7df7581-ac09-4844-908c-730ab53565d4",
+    "payment_id": 2,
+    "action": "post_approval_processing",
+    "timestamp": "2026-02-19 20:36:11.973283",
+    "tasks_completed": [
+      "vendor_notification",
+      "receipt_generation",
+      "accounting_update",
+      "internal_notification"
+    ],
+    "tasks_failed": [],
+    "status": "completed"
+  },
+  {
+    "id": "e987ab65-7b31-4e85-8331-ade77af81ba5",
+    "payment_id": 3,
+    "action": "vendor_notification",
+    "timestamp": "2026-02-19 21:02:45.998409",
+    "vendor": "Software Vendor Inc.",
+    "amount": 250.0,
+    "status": "sent"
+  },
+  {
+    "id": "8c3f5cac-7efb-4b3d-a3b7-89415c8605fc",
+    "payment_id": 3,
+    "action": "receipt_generation",
+    "timestamp": "2026-02-19 21:02:46.005721",
+    "receipt_file": "receipt_3_1771516966.json",
+    "status": "generated"
+  },
+  {
+    "id": "b5beac3a-c46a-4072-b317-a6fad272f8ee",
+    "payment_id": 3,
+    "action": "accounting_update",
+    "timestamp": "2026-02-19 21:02:46.020310",
+    "accounting_entry_id": "ACC-3-1771516966",
+    "status": "completed"
+  },
+  {
+    "notification_id": "fafe9b2e-0bad-4186-a8cc-71034923cf16",
+    "payment_id": 3,
+    "action": "internal_notification",
+    "timestamp": "2026-02-19 21:02:46.024675",
+    "recipients": [
+      "John Doe",
+      "Jane Smith"
+    ],
+    "subject": "Payment #3 Completed: $250.0 to Software Vendor Inc.",
+    "status": "sent"
+  },
+  {
+    "id": "a753113b-a571-42ff-9992-b564a9eb6253",
+    "payment_id": 3,
+    "action": "post_approval_processing",
+    "timestamp": "2026-02-19 21:02:46.029020",
+    "tasks_completed": [
+      "vendor_notification",
+      "receipt_generation",
+      "accounting_update",
+      "internal_notification"
+    ],
+    "tasks_failed": [],
+    "status": "completed"
+  }
+]

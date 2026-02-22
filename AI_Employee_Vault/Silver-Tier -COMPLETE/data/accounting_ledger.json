@@ -1,0 +1,25 @@
+{
+    "transactions": [
+        {
+            "task": "testing_task1.md",
+            "amount": 120,
+            "date": "2026-02-21 13:13:14.557877"
+        },
+        {
+            "task": "briefings_testing1.md",
+            "amount": 30,
+            "date": "2026-02-22 10:56:51.151588"
+        },
+        {
+            "task": "final_testing.md",
+            "amount": 0,
+            "date": "2026-02-22 11:12:33.215010"
+        },
+        {
+            "task": "final_test.md",
+            "amount": 2000,
+            "date": "2026-02-22 11:20:08.313834"
+        }
+    ],
+    "total_expense": 2150
+}
