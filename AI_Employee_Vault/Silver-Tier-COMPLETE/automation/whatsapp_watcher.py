@@ -7,9 +7,10 @@ Uses Playwright for browser automation
 
 import os
 import time
+import json
+import re
 from datetime import datetime
 from pathlib import Path
-import re
 from typing import Dict, List
 
 try:
@@ -19,9 +20,39 @@ except ImportError:
     HAS_PLAYWRIGHT = False
     print("Playwright not installed. Using mock implementation.")
 
-BASE_PATH = Path(__file__).parent
+BASE_PATH = Path(__file__).parent.parent  # Go up one level to the main directory
 NEEDS_ACTION_DIR = BASE_PATH / "Needs_Action"
 LOGS_DIR = BASE_PATH / "Logs"
+# Ensure Logs folder exists
+LOGS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def log_action(action_type: str, target: str, approval_status: str, result: str):
+    """Create structured JSON log entry (compliant with CLAUDE.md)"""
+    timestamp = datetime.now().isoformat()
+    log_entry = {
+        "timestamp": timestamp,
+        "action_type": action_type,
+        "target": target,
+        "approval_status": approval_status,
+        "result": result
+    }
+
+    log_file = LOGS_DIR / f"{datetime.now().strftime('%Y-%m-%d')}.json"
+
+    logs = []
+    if log_file.exists():
+        with open(log_file, 'r') as f:
+            try:
+                logs = json.load(f)
+            except json.JSONDecodeError:
+                logs = []
+
+    logs.append(log_entry)
+
+    with open(log_file, 'w') as f:
+        json.dump(logs, f, indent=2)
+
 
 class WhatsAppWatcher:
     def __init__(self):
@@ -29,12 +60,6 @@ class WhatsAppWatcher:
         self.browser = None
         self.page = None
         self.is_running = False
-
-    def log_action(self, message):
-        """Log action to file"""
-        log_file = LOGS_DIR / "whatsapp_watcher_log.md"
-        with open(log_file, "a") as f:
-            f.write(f"\n## {datetime.now()}\n{message}\n")
 
     def detect_keywords(self, message_text: str) -> List[str]:
         """Detect important keywords in message text"""
@@ -91,7 +116,7 @@ Please review this WhatsApp message and take appropriate action.
         with open(task_path, 'w') as f:
             f.write(task_content)
 
-        self.log_action(f"Created task from WhatsApp message from {sender}, keywords: {', '.join(keywords)}, priority: {priority}")
+        log_action("message_detected", task_filename, "auto", "success")
         print(f"WhatsApp Watcher: Created task {task_filename}")
 
     def scan_messages_mock(self):
@@ -153,12 +178,12 @@ Please review this WhatsApp message and take appropriate action.
 
         except Exception as e:
             print(f"WhatsApp Watcher Error: {e}")
-            self.log_action(f"Error scanning WhatsApp: {str(e)}")
+            log_action("whatsapp_scan", "whatsapp_watcher", "auto", f"failed: {str(e)}")
 
     def watch(self):
         """Main watch loop"""
         print("WhatsApp Watcher running...")
-        self.log_action("WhatsApp Watcher started")
+        log_action("watcher_start", "whatsapp_watcher", "auto", "started")
 
         self.is_running = True
 
@@ -170,11 +195,11 @@ Please review this WhatsApp message and take appropriate action.
                 time.sleep(30)
             except KeyboardInterrupt:
                 print("\nWhatsApp Watcher stopped by user")
-                self.log_action("WhatsApp Watcher stopped")
+                log_action("watcher_stop", "whatsapp_watcher", "auto", "stopped")
                 break
             except Exception as e:
                 print(f"Error in WhatsApp Watcher: {e}")
-                self.log_action(f"Error in watch loop: {str(e)}")
+                log_action("watcher_error", "whatsapp_watcher", "auto", f"error: {str(e)}")
                 time.sleep(60)  # Wait longer if there's an error
 
         # Cleanup
@@ -182,6 +207,7 @@ Please review this WhatsApp message and take appropriate action.
             self.browser.close()
         if self.playwright:
             self.playwright.stop()
+
 
 if __name__ == "__main__":
     watcher = WhatsAppWatcher()

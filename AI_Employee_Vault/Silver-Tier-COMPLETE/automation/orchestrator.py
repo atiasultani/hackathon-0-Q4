@@ -13,7 +13,7 @@ from pathlib import Path
 import subprocess
 import threading
 
-BASE_PATH = Path(__file__).parent
+BASE_PATH = Path(__file__).parent.parent  # Go up one level to the main directory
 NEEDS_ACTION_DIR = BASE_PATH / "Needs_Action"
 PLANS_DIR = BASE_PATH / "Plans"
 PENDING_APPROVAL_DIR = BASE_PATH / "Pending_Approval"
@@ -121,10 +121,11 @@ class Orchestrator:
         with open(task_path, 'r') as f:
             task_content = f.read()
 
-        # Create a basic plan structure
+        # Create a basic plan structure (CLAUDE.md compliant format)
         plan_content = f"""---
 created: {datetime.now().strftime('%Y-%m-%d')}
 status: pending_approval
+source: {task_file}
 ---
 
 ## Objective
@@ -147,9 +148,49 @@ Process task: {task_file}
         requires_approval = any(word in task_content.lower() for word in ['email', 'send', 'payment', 'post', 'linkedin'])
 
         if requires_approval:
-            # Move to pending approval
-            approval_path = PENDING_APPROVAL_DIR / task_file
-            shutil.move(task_path, approval_path)
+            # Create proper approval file (CLAUDE.md compliant format)
+            approval_filename = f"ACTION_{task_file.replace('.md', '')}.md"
+            approval_path = PENDING_APPROVAL_DIR / approval_filename
+            
+            # Determine action type and priority
+            if 'email' in task_content.lower():
+                action_type = 'send_email'
+            elif 'linkedin' in task_content.lower() or 'post' in task_content.lower():
+                action_type = 'linkedin_post'
+            elif 'payment' in task_content.lower():
+                action_type = 'payment'
+            else:
+                action_type = 'general_action'
+            
+            priority = 'high' if any(word in task_content.lower() for word in ['urgent', 'asap', 'critical']) else 'medium'
+
+            approval_content = f"""---
+type: approval_request
+action: {action_type}
+created: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+priority: {priority}
+source: {task_file}
+---
+
+## Action Required
+Execute action for task: {task_file}
+
+## Details
+{task_content}
+
+## Reason
+Task requires human approval before execution per Silver Tier HITL policy.
+
+---
+[HUMAN: Move this file to /Approved/ to execute, or /Rejected/ to cancel]
+"""
+            
+            with open(approval_path, 'w') as f:
+                f.write(approval_content)
+            
+            # Move original task to Done (approval file tracks the action)
+            done_path = DONE_DIR / task_file
+            shutil.move(task_path, done_path)
 
             # Log the action
             self.log_action("task_processing", str(task_file), "requires_approval", "moved_to_pending")
@@ -199,44 +240,76 @@ Process task: {task_file}
         """Execute an approved task using MCP server"""
         print(f"Executing approved task: {filename}")
 
-        # In a real implementation, this would call an MCP server
-        # For now, we'll simulate the execution
-
         approved_path = APPROVED_DIR / filename
         done_path = DONE_DIR / filename
+        failed_path = NEEDS_ACTION_DIR / f"{filename.replace('.md', '_FAILED.md')}"
 
-        # Simulate MCP server execution based on file type
-        with open(approved_path, 'r') as f:
-            content = f.read()
+        try:
+            # Simulate MCP server execution based on file type
+            with open(approved_path, 'r') as f:
+                content = f.read()
 
-        # Determine action type and execute accordingly
-        if 'linkedin' in content.lower() or 'post' in content.lower():
-            action_result = self.execute_linkedin_post(content)
-            action_type = "linkedin_post"
-        elif 'email' in content.lower() or 'send' in content.lower():
-            action_result = self.execute_email(content)
-            action_type = "email_send"
-        else:
-            action_result = "completed"
-            action_type = "general_task"
+            # Determine action type and execute accordingly
+            if 'linkedin' in content.lower() or 'post' in content.lower():
+                action_result = self.execute_linkedin_post(content)
+                action_type = "linkedin_post"
+            elif 'email' in content.lower() or 'send' in content.lower():
+                action_result = self.execute_email(content)
+                action_type = "email_send"
+            else:
+                action_result = "completed"
+                action_type = "general_task"
 
-        # Move to Done directory
-        shutil.move(approved_path, done_path)
+            if action_result == "success":
+                # Move to Done directory
+                shutil.move(approved_path, done_path)
+                # Log the action
+                self.log_action(action_type, filename, "approved", action_result)
+            else:
+                # Handle failure - move to Needs_Action with _FAILED suffix
+                shutil.move(approved_path, failed_path)
+                self.log_action(action_type, filename, "approved", f"failed: {action_result}")
+                self.update_dashboard_with_failure(filename, action_result)
 
-        # Log the action
-        self.log_action(action_type, filename, "approved", action_result)
+        except Exception as e:
+            # Handle exception - move to Needs_Action with _FAILED suffix
+            error_msg = str(e)
+            if approved_path.exists():
+                shutil.move(approved_path, failed_path)
+            self.log_action("task_execution", filename, "approved", f"failed: {error_msg}")
+            self.update_dashboard_with_failure(filename, error_msg)
+            raise  # Re-raise for monitor_approved to catch
+
+    def update_dashboard_with_failure(self, filename: str, error: str):
+        """Update dashboard with failure notice (CLAUDE.md error handling)"""
+        # Add failure notice to dashboard
+        current_content = DASHBOARD_FILE.read_text() if DASHBOARD_FILE.exists() else "# AI Employee Dashboard\n"
+        
+        failure_notice = f"\n## ⚠️ Failed Tasks\n- **{filename}**: {error}\n"
+        
+        if "⚠️ Failed Tasks" not in current_content:
+            current_content += failure_notice
+            DASHBOARD_FILE.write_text(current_content)
 
     def execute_linkedin_post(self, content):
         """Simulate LinkedIn post execution (would connect to MCP server in real implementation)"""
         print("Executing LinkedIn post...")
-        # In real implementation, this would call an MCP server to post to LinkedIn
-        return "success"
+        try:
+            # In real implementation, this would call an MCP server to post to LinkedIn
+            # For now, simulate success
+            return "success"
+        except Exception as e:
+            return f"failed: {str(e)}"
 
     def execute_email(self, content):
         """Simulate email execution (would connect to MCP server in real implementation)"""
         print("Executing email send...")
-        # In real implementation, this would call an MCP server to send email
-        return "success"
+        try:
+            # In real implementation, this would call an MCP server to send email
+            # For now, simulate success
+            return "success"
+        except Exception as e:
+            return f"failed: {str(e)}"
 
     def run(self):
         """Start the orchestrator"""

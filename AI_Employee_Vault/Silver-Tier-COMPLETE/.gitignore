@@ -1,0 +1,44 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs (JSON logs in /Logs are kept, but temp logs ignored)
+*.log
+
+# Google API credentials (should never be committed)
+credentials.json
+token.json
+
+# Environment files with secrets
+.env
+.env.local
+
+# Receipts and temporary data files
+data/receipts/
+*.tmp
+
+# MCP server temporary files
+*.pid

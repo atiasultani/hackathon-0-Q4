@@ -6,10 +6,9 @@ Monitors Gmail for important emails and creates task files
 
 import os
 import time
+import json
 from datetime import datetime
 from pathlib import Path
-import json
-import base64
 from typing import Dict, List
 
 try:
@@ -22,9 +21,39 @@ except ImportError:
     HAS_GOOGLE_API = False
     print("Google API libraries not installed. Using mock implementation.")
 
-BASE_PATH = Path(__file__).parent
+BASE_PATH = Path(__file__).parent.parent  # Go up one level to the main directory
 NEEDS_ACTION_DIR = BASE_PATH / "Needs_Action"
 LOGS_DIR = BASE_PATH / "Logs"
+# Ensure Logs folder exists
+LOGS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def log_action(action_type: str, target: str, approval_status: str, result: str):
+    """Create structured JSON log entry (compliant with CLAUDE.md)"""
+    timestamp = datetime.now().isoformat()
+    log_entry = {
+        "timestamp": timestamp,
+        "action_type": action_type,
+        "target": target,
+        "approval_status": approval_status,
+        "result": result
+    }
+
+    log_file = LOGS_DIR / f"{datetime.now().strftime('%Y-%m-%d')}.json"
+
+    logs = []
+    if log_file.exists():
+        with open(log_file, 'r') as f:
+            try:
+                logs = json.load(f)
+            except json.JSONDecodeError:
+                logs = []
+
+    logs.append(log_entry)
+
+    with open(log_file, 'w') as f:
+        json.dump(logs, f, indent=2)
+
 
 # If Google API is not available, use a mock implementation
 if not HAS_GOOGLE_API:
@@ -85,11 +114,6 @@ else:
 
         return build('gmail', 'v1', credentials=creds)
 
-def log_action(message):
-    """Log action to file"""
-    log_file = LOGS_DIR / "gmail_watcher_log.md"
-    with open(log_file, "a") as f:
-        f.write(f"\n## {datetime.now()}\n{message}\n")
 
 def create_task_from_email(email_data: Dict):
     """Create a task file from email data"""
@@ -129,8 +153,9 @@ Please review this email and take appropriate action.
     with open(task_path, 'w') as f:
         f.write(task_content)
 
-    log_action(f"Created task from email {email_id}, priority: {priority}")
+    log_action("email_detected", task_filename, "auto", "success")
     print(f"Gmail Watcher: Created task {task_filename}")
+
 
 def check_new_emails():
     """Check for new unread important emails"""
@@ -164,12 +189,13 @@ def check_new_emails():
 
     except Exception as e:
         print(f"Gmail Watcher Error: {e}")
-        log_action(f"Error checking emails: {str(e)}")
+        log_action("email_check", "gmail", "auto", f"failed: {str(e)}")
+
 
 def watch():
     """Main watch loop"""
     print("Gmail Watcher running...")
-    log_action("Gmail Watcher started")
+    log_action("watcher_start", "gmail_watcher", "auto", "started")
 
     while True:
         try:
@@ -178,11 +204,13 @@ def watch():
             time.sleep(30)
         except KeyboardInterrupt:
             print("\nGmail Watcher stopped by user")
-            log_action("Gmail Watcher stopped")
+            log_action("watcher_stop", "gmail_watcher", "auto", "stopped")
             break
         except Exception as e:
             print(f"Error in Gmail Watcher: {e}")
+            log_action("watcher_error", "gmail_watcher", "auto", f"error: {str(e)}")
             time.sleep(60)  # Wait longer if there's an error
+
 
 if __name__ == "__main__":
     watch()

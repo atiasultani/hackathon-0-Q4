@@ -1,1 +1,0 @@
-Pay $30 testing integration

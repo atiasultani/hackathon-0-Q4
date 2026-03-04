@@ -1,1 +1,0 @@
-Pay $50 for testing subscription.
