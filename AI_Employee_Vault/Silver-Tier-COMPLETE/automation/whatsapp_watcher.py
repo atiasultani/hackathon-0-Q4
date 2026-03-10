@@ -152,7 +152,7 @@ Please review this WhatsApp message and take appropriate action.
         try:
             if not self.browser:
                 self.playwright = sync_playwright().start()
-                self.browser = self.playwright.chromium.launch(headless=True)
+                self.browser = self.playwright.chromium.launch(headless=False)
                 self.page = self.browser.new_page()
 
                 # Navigate to WhatsApp Web
@@ -160,7 +160,7 @@ Please review this WhatsApp message and take appropriate action.
 
                 # Wait for user to scan QR code
                 print("Please scan the QR code in the browser to log in to WhatsApp Web...")
-                self.page.wait_for_selector('#pane-side', timeout=60000)  # Wait up to 60 seconds
+                self.page.wait_for_selector('#pane-side', timeout=120000)  # Wait up to 60 seconds
 
             # Find chat messages (this is simplified - real implementation would be more complex)
             # Look for new messages in the chat list

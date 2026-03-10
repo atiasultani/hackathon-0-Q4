@@ -85,13 +85,13 @@ else:
     def get_gmail_service():
         """Authenticate and return Gmail service object"""
         creds = None
-        token_path = BASE_PATH / "token.json"
-        credentials_path = BASE_PATH / "credentials.json"
+        token_path = BASE_PATH / "integrations" / "gmail" / "token.json"
+        credentials_path = BASE_PATH / "integrations" / "gmail" / "credentials.json"
 
         # Load existing token
         if token_path.exists():
-            with open(token_path, 'r') as token:
-                creds = google.auth.load_credentials_from_file(token)
+         with open(token_path, 'r') as token:
+          creds = google.auth.load_credentials_from_file(token_path)
 
         # If no valid credentials, get new ones
         if not creds or not creds.valid:

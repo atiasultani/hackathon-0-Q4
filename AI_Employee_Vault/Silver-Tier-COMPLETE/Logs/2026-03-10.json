@@ -1,0 +1,1213 @@
+[
+  {
+    "timestamp": "2026-03-10T14:08:52.737920",
+    "action_type": "watcher_start",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-10T14:08:52.740086",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:09:22.760774",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:09:52.793669",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:10:22.849198",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:10:52.885357",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:11:22.957174",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:11:53.000131",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:12:23.051310",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:12:53.096418",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:13:23.146063",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:13:53.194280",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:14:23.243358",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:14:53.295517",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:15:23.344296",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:15:53.394167",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:16:23.446157",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:16:53.492346",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:17:23.538414",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:17:53.579752",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:18:23.628095",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:18:53.667365",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:19:23.714643",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:19:53.755835",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:24:59.572892",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:25:29.614413",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:25:59.657170",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:26:29.708556",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:26:59.752296",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:27:29.804268",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:27:59.843490",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:28:29.895042",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:28:59.938300",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:29:29.986370",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:30:00.038019",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:30:30.084153",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:31:00.127003",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:31:21.534406",
+    "action_type": "watcher_stop",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "stopped"
+  },
+  {
+    "timestamp": "2026-03-10T14:38:01.733208",
+    "action_type": "watcher_start",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-10T14:38:01.736010",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:38:31.758232",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: credentials.json not found. Please set up Google API credentials."
+  },
+  {
+    "timestamp": "2026-03-10T14:38:58.787879",
+    "action_type": "watcher_stop",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "stopped"
+  },
+  {
+    "timestamp": "2026-03-10T14:39:38.179590",
+    "action_type": "watcher_start",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-10T14:51:13.066344",
+    "action_type": "watcher_start",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-10T14:53:46.224169",
+    "action_type": "email_detected",
+    "target": "EMAIL_19cb52d41ab82797.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-10T14:53:46.719871",
+    "action_type": "email_detected",
+    "target": "EMAIL_19cb52a34eeede55.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-10T14:53:47.335885",
+    "action_type": "email_detected",
+    "target": "EMAIL_19cb4ed8737c479c.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-10T14:53:47.949325",
+    "action_type": "email_detected",
+    "target": "EMAIL_19cb4ed47b47cbf7.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-10T14:53:48.868241",
+    "action_type": "email_detected",
+    "target": "EMAIL_19cb4eb941f02ec1.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-10T14:53:49.280105",
+    "action_type": "email_detected",
+    "target": "EMAIL_19c98efd01eba412.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-10T14:53:49.797669",
+    "action_type": "email_detected",
+    "target": "EMAIL_19c98ed01345c8c0.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-10T14:53:50.092249",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: 'charmap' codec can't encode character '\\U0001f4f2' in position 269: character maps to <undefined>"
+  },
+  {
+    "timestamp": "2026-03-10T14:54:20.143720",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T14:54:50.177268",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T14:55:20.236257",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T14:55:50.284755",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T14:56:20.339664",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T14:56:50.385396",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T14:57:20.436903",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T14:57:50.477309",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T14:58:20.528543",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T14:58:50.586402",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T14:59:20.643766",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T14:59:50.698609",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:00:20.751865",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:00:50.799996",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:01:20.854650",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:01:50.910548",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:02:20.962703",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:02:51.016980",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:03:21.068411",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:03:51.117820",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:04:21.162345",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:04:51.198631",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:05:21.247014",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:05:51.284738",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:06:21.330660",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:06:51.376571",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:07:21.417940",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:07:51.462976",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:08:21.514235",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:08:51.562161",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:09:21.607129",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:09:51.652564",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:10:21.708485",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:10:51.757289",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:11:21.809298",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:11:51.865682",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:12:21.923636",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:12:51.979556",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:13:22.024981",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:13:52.085638",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:14:22.139722",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:14:52.191324",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:15:22.242541",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:15:52.298429",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:16:22.358145",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:16:52.413766",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:17:03.637920",
+    "action_type": "watcher_stop",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "stopped"
+  },
+  {
+    "timestamp": "2026-03-10T15:17:16.097802",
+    "action_type": "watcher_start",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-10T15:17:16.100974",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:17:46.130203",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:18:16.140058",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:18:46.151889",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:19:16.163713",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:19:46.173692",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:20:16.184863",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:20:46.191558",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:21:16.202402",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:21:46.257736",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:22:16.316688",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:22:46.354485",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:23:16.411683",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:23:46.473450",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:24:16.525401",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:24:46.536373",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:25:16.594356",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: _path_exists: path should be string, bytes, os.PathLike or integer, not TextIOWrapper"
+  },
+  {
+    "timestamp": "2026-03-10T15:25:40.863369",
+    "action_type": "watcher_stop",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "stopped"
+  },
+  {
+    "timestamp": "2026-03-10T15:25:44.840131",
+    "action_type": "watcher_start",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-10T15:25:44.843938",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:26:14.874163",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:26:44.920978",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:27:14.973904",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:27:30.902136",
+    "action_type": "watcher_stop",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "stopped"
+  },
+  {
+    "timestamp": "2026-03-10T15:28:28.538571",
+    "action_type": "watcher_start",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-10T15:28:28.547120",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:28:58.589299",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:29:28.632058",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:29:58.688904",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:30:28.743915",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:30:43.647177",
+    "action_type": "watcher_stop",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "stopped"
+  },
+  {
+    "timestamp": "2026-03-10T15:30:56.320055",
+    "action_type": "watcher_start",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-10T15:32:51.721826",
+    "action_type": "email_detected",
+    "target": "EMAIL_19cd7335f0b75070.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-10T15:33:21.800417",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:33:51.844906",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:34:21.909832",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:34:51.965382",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:35:22.028274",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:35:52.047039",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:36:07.240632",
+    "action_type": "task_processing",
+    "target": "EMAIL_19cd7335f0b75070.md",
+    "approval_status": "requires_approval",
+    "result": "moved_to_pending"
+  },
+  {
+    "timestamp": "2026-03-10T15:36:22.060008",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:36:52.073024",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:37:22.081663",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:37:52.094552",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:37:57.255361",
+    "action_type": "email_send",
+    "target": "ACTION_EMAIL_19cd7335f0b75070.md",
+    "approval_status": "approved",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-10T15:38:22.107971",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:38:52.118277",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:39:22.131748",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:39:52.140696",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:40:22.156000",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:40:52.171186",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:41:22.186699",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:41:52.201632",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:42:22.216376",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T15:42:52.233497",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T16:33:13.046586",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T19:04:53.102145",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T19:05:23.183436",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T19:05:53.192718",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T19:06:23.217406",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T19:06:53.241066",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T19:07:23.261715",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T19:07:53.275277",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T19:08:23.298981",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T19:08:53.316596",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T19:32:01.334741",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T20:15:35.026331",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T20:53:35.687202",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T22:05:48.335223",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T22:55:14.784643",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T22:55:44.845248",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T22:56:14.885927",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  },
+  {
+    "timestamp": "2026-03-10T22:56:44.940905",
+    "action_type": "email_check",
+    "target": "gmail",
+    "approval_status": "auto",
+    "result": "failed: The file c:\\Users\\USER\\Documents\\github\\hackathon-0-Q4\\AI_Employee_Vault\\Silver-Tier-COMPLETE\\integrations\\gmail\\token.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account')."
+  }
+]

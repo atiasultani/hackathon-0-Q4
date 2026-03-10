@@ -8,20 +8,17 @@ import schedule
 import time
 import threading
 from datetime import datetime
-import subprocess
-import os
 from pathlib import Path
 
-BASE_PATH = Path(__file__).parent
+# Root folder path
+BASE_PATH = Path(__file__).resolve().parent.parent  # <- points to Silver-Tier-COMPLETE root
 
 def run_morning_summary():
     """Run morning summary task"""
     print(f"[{datetime.now()}] Running morning summary...")
 
-    # In real implementation, this might generate a daily report
-    # For now, we'll just create a log entry
-
     log_dir = BASE_PATH / "Logs"
+    log_dir.mkdir(exist_ok=True)  # create folder if missing
     log_file = log_dir / f"morning_summary_{datetime.now().strftime('%Y-%m-%d')}.log"
 
     with open(log_file, 'a') as f:
@@ -33,8 +30,9 @@ def run_linkedin_post():
     """Schedule LinkedIn post generation"""
     print(f"[{datetime.now()}] Checking for LinkedIn posts to generate...")
 
-    # Create a sample LinkedIn post draft that requires approval
     pending_approval_dir = BASE_PATH / "Pending_Approval"
+    pending_approval_dir.mkdir(exist_ok=True)  # create folder if missing
+
     post_filename = f"LINKEDIN_POST_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
     post_file = pending_approval_dir / post_filename
 
@@ -66,10 +64,8 @@ def run_inbox_sweep():
     """Run periodic inbox sweep"""
     print(f"[{datetime.now()}] Running inbox sweep...")
 
-    # In real implementation, this would check email/communication channels
-    # For now, we'll just log the action
-
     log_dir = BASE_PATH / "Logs"
+    log_dir.mkdir(exist_ok=True)  # create folder if missing
     log_file = log_dir / f"activity_log_{datetime.now().strftime('%Y-%m-%d')}.log"
 
     with open(log_file, 'a') as f:
@@ -81,7 +77,7 @@ def start_scheduler():
     """Initialize and start the scheduler"""
     print("Starting Silver Tier Scheduler...")
 
-    # Schedule jobs according to requirements
+    # Schedule jobs
     schedule.every().day.at("08:00").do(run_morning_summary)  # Morning summary daily at 8:00 AM
     schedule.every().monday.at("10:00").do(run_linkedin_post)  # LinkedIn post weekly (Monday at 10:00 AM)
     schedule.every(10).minutes.do(run_inbox_sweep)  # Inbox sweep every 10 minutes
@@ -108,6 +104,6 @@ if __name__ == "__main__":
     try:
         # Keep the main thread alive
         while True:
-            time.sleep(60)  # Sleep for 60 seconds, then check again
+            time.sleep(60)
     except KeyboardInterrupt:
         print("\nScheduler stopped by user")

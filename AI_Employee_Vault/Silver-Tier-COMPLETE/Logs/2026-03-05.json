@@ -1,0 +1,338 @@
+[
+  {
+    "timestamp": "2026-03-05T01:52:35.405423",
+    "action_type": "watcher_start",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-05T01:58:27.669351",
+    "action_type": "watcher_start",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-05T02:00:22.725642",
+    "action_type": "watcher_stop",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "stopped"
+  },
+  {
+    "timestamp": "2026-03-05T02:09:27.457794",
+    "action_type": "watcher_start",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-05T02:10:17.309097",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: BrowserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /home/ccr/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-QBFbA5 --remote-debugging-pipe --no-startup-window\n<launched> pid=2359\n[pid=2359][err] /home/ccr/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell: error while loading shared libraries: libnspr4.so: cannot open shared object file: No such file or directory\nCall log:\n  - <launching> /home/ccr/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-QBFbA5 --remote-debugging-pipe --no-startup-window\n  - <launched> pid=2359\n  - [pid=2359][err] /home/ccr/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell: error while loading shared libraries: libnspr4.so: cannot open shared object file: No such file or directory\n  - [pid=2359] <gracefully close start>\n  - [pid=2359] <kill>\n  - [pid=2359] <will force kill>\n  - [pid=2359] exception while trying to kill process: Error: kill ESRCH\n  - [pid=2359] <process did exit: exitCode=127, signal=null>\n  - [pid=2359] starting temporary directories cleanup\n  - [pid=2359] finished temporary directories cleanup\n  - [pid=2359] <gracefully close end>\n"
+  },
+  {
+    "timestamp": "2026-03-05T02:10:47.731938",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:11:18.191614",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:11:48.216516",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:12:18.237638",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:13:13.256682",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: BrowserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /home/ccr/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-MjmUWf --remote-debugging-pipe --no-startup-window\n<launched> pid=2764\n[pid=2764][err] /home/ccr/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell: error while loading shared libraries: libnspr4.so: cannot open shared object file: No such file or directory\nCall log:\n  - <launching> /home/ccr/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-MjmUWf --remote-debugging-pipe --no-startup-window\n  - <launched> pid=2764\n  - [pid=2764][err] /home/ccr/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell: error while loading shared libraries: libnspr4.so: cannot open shared object file: No such file or directory\n  - [pid=2764] <gracefully close start>\n  - [pid=2764] <kill>\n  - [pid=2764] <will force kill>\n  - [pid=2764] exception while trying to kill process: Error: kill ESRCH\n  - [pid=2764] <process did exit: exitCode=127, signal=null>\n  - [pid=2764] starting temporary directories cleanup\n  - [pid=2764] finished temporary directories cleanup\n  - [pid=2764] <gracefully close end>\n"
+  },
+  {
+    "timestamp": "2026-03-05T02:18:48.746036",
+    "action_type": "watcher_start",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-05T02:18:48.750581",
+    "action_type": "message_detected",
+    "target": "WHATSAPP_Vendor_B_20260305_021848.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-05T02:21:37.323743",
+    "action_type": "task_processing",
+    "target": "WHATSAPP_Vendor_B_20260305_021848.md",
+    "approval_status": "requires_approval",
+    "result": "moved_to_pending"
+  },
+  {
+    "timestamp": "2026-03-05T02:21:57.240975",
+    "action_type": "watcher_start",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-05T02:22:18.589237",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: BrowserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /home/ccr/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-Iv0kcp --remote-debugging-pipe --no-startup-window\n<launched> pid=4053\n[pid=4053][err] /home/ccr/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory\nCall log:\n  - <launching> /home/ccr/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-Iv0kcp --remote-debugging-pipe --no-startup-window\n  - <launched> pid=4053\n  - [pid=4053][err] /home/ccr/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory\n  - [pid=4053] <gracefully close start>\n  - [pid=4053] <kill>\n  - [pid=4053] <will force kill>\n  - [pid=4053] exception while trying to kill process: Error: kill ESRCH\n  - [pid=4053] <process did exit: exitCode=127, signal=null>\n  - [pid=4053] starting temporary directories cleanup\n  - [pid=4053] finished temporary directories cleanup\n  - [pid=4053] <gracefully close end>\n"
+  },
+  {
+    "timestamp": "2026-03-05T02:22:48.600678",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:23:18.638270",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:23:48.651111",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:24:18.679373",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:24:32.589963",
+    "action_type": "watcher_start",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-05T02:24:48.700406",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:24:52.502910",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: BrowserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /home/ccr/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --user-data-dir=/tmp/playwright_chromiumdev_profile-1N2ESI --remote-debugging-pipe --no-startup-window\n<launched> pid=4313\n[pid=4313][err] /home/ccr/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory\nCall log:\n  - <launching> /home/ccr/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --user-data-dir=/tmp/playwright_chromiumdev_profile-1N2ESI --remote-debugging-pipe --no-startup-window\n  - <launched> pid=4313\n  - [pid=4313][err] /home/ccr/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory\n  - [pid=4313] <gracefully close start>\n  - [pid=4313] <kill>\n  - [pid=4313] <will force kill>\n  - [pid=4313] exception while trying to kill process: Error: kill ESRCH\n  - [pid=4313] <process did exit: exitCode=127, signal=null>\n  - [pid=4313] starting temporary directories cleanup\n  - [pid=4313] finished temporary directories cleanup\n  - [pid=4313] <gracefully close end>\n, using mock"
+  },
+  {
+    "timestamp": "2026-03-05T02:25:18.714334",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:25:48.743083",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:26:14.660590",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: BrowserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /home/ccr/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --user-data-dir=/tmp/playwright_chromiumdev_profile-ML6oWs --remote-debugging-pipe --no-startup-window\n<launched> pid=4514\n[pid=4514][err] /home/ccr/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory\nCall log:\n  - <launching> /home/ccr/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --user-data-dir=/tmp/playwright_chromiumdev_profile-ML6oWs --remote-debugging-pipe --no-startup-window\n  - <launched> pid=4514\n  - [pid=4514][err] /home/ccr/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory\n  - [pid=4514] <gracefully close start>\n  - [pid=4514] <kill>\n  - [pid=4514] <will force kill>\n  - [pid=4514] exception while trying to kill process: Error: kill ESRCH\n  - [pid=4514] <process did exit: exitCode=127, signal=null>\n  - [pid=4514] starting temporary directories cleanup\n  - [pid=4514] finished temporary directories cleanup\n  - [pid=4514] <gracefully close end>\n, using mock"
+  },
+  {
+    "timestamp": "2026-03-05T02:26:17.738442",
+    "action_type": "general_task",
+    "target": "ACTION_WHATSAPP_Vendor_B_20260305_021848.md",
+    "approval_status": "approved",
+    "result": "failed: completed"
+  },
+  {
+    "timestamp": "2026-03-05T02:26:18.775218",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:26:27.724828",
+    "action_type": "task_processing",
+    "target": "ACTION_WHATSAPP_Vendor_B_20260305_021848_FAILED.md",
+    "approval_status": "requires_approval",
+    "result": "moved_to_pending"
+  },
+  {
+    "timestamp": "2026-03-05T02:26:48.818344",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:27:18.848223",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:27:48.874108",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:28:18.899108",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:28:35.698109",
+    "action_type": "watcher_start",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-05T02:28:48.927849",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:29:18.954909",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:29:48.984379",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T02:30:19.010564",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+  },
+  {
+    "timestamp": "2026-03-05T13:20:01.521089",
+    "action_type": "watcher_start",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-05T13:49:25.118469",
+    "action_type": "watcher_start",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-05T13:50:32.040579",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"#pane-side\") to be visible\n"
+  },
+  {
+    "timestamp": "2026-03-05T13:54:56.791653",
+    "action_type": "watcher_start",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-05T13:56:00.535310",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"#pane-side\") to be visible\n"
+  },
+  {
+    "timestamp": "2026-03-05T13:59:32.618759",
+    "action_type": "watcher_start",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-05T14:00:35.616621",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"#pane-side\") to be visible\n"
+  },
+  {
+    "timestamp": "2026-03-05T14:08:45.770574",
+    "action_type": "watcher_start",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-05T14:09:06.838774",
+    "action_type": "whatsapp_scan",
+    "target": "whatsapp_watcher",
+    "approval_status": "auto",
+    "result": "failed: Page.wait_for_selector: Target page, context or browser has been closed\nCall log:\n  - waiting for locator(\"#pane-side\") to be visible\n"
+  },
+  {
+    "timestamp": "2026-03-05T16:29:18.299591",
+    "action_type": "task_processing",
+    "target": "Published-Post_Example_20260305162911.md",
+    "approval_status": "requires_approval",
+    "result": "moved_to_pending"
+  },
+  {
+    "timestamp": "2026-03-05T16:29:48.302452",
+    "action_type": "linkedin_post",
+    "target": "ACTION_Published-Post_Example_20260305162911.md",
+    "approval_status": "approved",
+    "result": "success"
+  }
+]

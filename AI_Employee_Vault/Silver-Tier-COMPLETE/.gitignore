@@ -1,3 +1,6 @@
+credentials.json
+token.json
+
 # Python virtual environment
 venv/
 .venv/

@@ -6,34 +6,17 @@ Starts all required components: orchestrator, MCP servers, and scheduler
 
 import subprocess
 import sys
-import signal
 import time
-from threading import Thread
 import os
 
-def start_orchestrator():
-    """Start the orchestrator process"""
-    print("Starting Orchestrator...")
-    orchestrator_process = subprocess.Popen([sys.executable, "orchestrator.py"])
-    return orchestrator_process
+# Base folder where this script is located (automation folder)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-def start_email_mcp_server():
-    """Start the email MCP server process"""
-    print("Starting Email MCP Server...")
-    email_mcp_process = subprocess.Popen([sys.executable, "email_mcp_server.py"])
-    return email_mcp_process
-
-def start_linkedin_mcp_server():
-    """Start the LinkedIn MCP server process"""
-    print("Starting LinkedIn MCP Server...")
-    linkedin_mcp_process = subprocess.Popen([sys.executable, "linkedin_mcp_server.py"])
-    return linkedin_mcp_process
-
-def start_scheduler():
-    """Start the scheduler process"""
-    print("Starting Scheduler...")
-    scheduler_process = subprocess.Popen([sys.executable, "scheduler.py"])
-    return scheduler_process
+def start_process(script_name, display_name):
+    """Start a Python process with correct path"""
+    script_path = os.path.join(BASE_DIR, script_name)
+    print(f"Starting {display_name}...")
+    return subprocess.Popen([sys.executable, script_path])
 
 def main():
     """Main function to start all components"""
@@ -43,22 +26,22 @@ def main():
 
     try:
         # Start orchestrator
-        orchestrator_proc = start_orchestrator()
+        orchestrator_proc = start_process("orchestrator.py", "Orchestrator")
         processes.append(("Orchestrator", orchestrator_proc))
-        time.sleep(2)  # Give it time to start
+        time.sleep(2)
 
-        # Start email MCP server
-        email_mcp_proc = start_email_mcp_server()
-        processes.append(("Email MCP Server", email_mcp_proc))
-        time.sleep(2)  # Give it time to start
+        # Start Email MCP server
+        email_proc = start_process("email_mcp_server.py", "Email MCP Server")
+        processes.append(("Email MCP Server", email_proc))
+        time.sleep(2)
 
         # Start LinkedIn MCP server
-        linkedin_mcp_proc = start_linkedin_mcp_server()
-        processes.append(("LinkedIn MCP Server", linkedin_mcp_proc))
-        time.sleep(2)  # Give it time to start
+        linkedin_proc = start_process("linkedin_mcp_server.py", "LinkedIn MCP Server")
+        processes.append(("LinkedIn MCP Server", linkedin_proc))
+        time.sleep(2)
 
-        # Start scheduler
-        scheduler_proc = start_scheduler()
+        # Start Scheduler
+        scheduler_proc = start_process("scheduler.py", "Scheduler")
         processes.append(("Scheduler", scheduler_proc))
 
         print("\nAll Silver Tier components started successfully!")
@@ -69,26 +52,16 @@ def main():
         print("\nSystem is now operational.")
         print("Press Ctrl+C to shut down all components.")
 
-        # Wait for all processes to finish (they shouldn't unless terminated)
+        # Monitor processes
         try:
             while True:
                 time.sleep(1)
-
-                # Check if any process has died unexpectedly
-                for name, proc in processes:
+                for i, (name, proc) in enumerate(processes):
                     if proc.poll() is not None:
                         print(f"WARNING: {name} process died unexpectedly with return code {proc.returncode}")
                         # Restart the process
-                        if name == "Orchestrator":
-                            proc = start_orchestrator()
-                        elif name == "Email MCP Server":
-                            proc = start_email_mcp_server()
-                        elif name == "LinkedIn MCP Server":
-                            proc = start_linkedin_mcp_server()
-                        elif name == "Scheduler":
-                            proc = start_scheduler()
-
-                        processes = [(n, p if n != name else proc) for n, p in processes]
+                        proc = start_process(f"{name.lower().replace(' ', '_')}.py", name)
+                        processes[i] = (name, proc)
 
         except KeyboardInterrupt:
             print("\nReceived shutdown signal...")
@@ -98,16 +71,11 @@ def main():
         for name, proc in processes:
             print(f"Terminating {name} (PID: {proc.pid})...")
             proc.terminate()
-
-        # Wait a bit for graceful shutdown
         time.sleep(2)
-
-        # Force kill if still running
         for name, proc in processes:
             if proc.poll() is None:
                 print(f"Force killing {name}...")
                 proc.kill()
-
         print("All components shut down.")
 
 if __name__ == "__main__":
