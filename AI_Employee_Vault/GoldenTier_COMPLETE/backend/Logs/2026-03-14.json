@@ -1,0 +1,247 @@
+[
+  {
+    "timestamp": "2026-03-14T12:38:47.281052",
+    "action_type": "watcher_start",
+    "target": "linkedin_watcher",
+    "approval_status": "auto",
+    "result": "started_mock"
+  },
+  {
+    "timestamp": "2026-03-14T12:38:47.497743",
+    "action_type": "watcher_start",
+    "target": "calendar_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-14T12:38:47.527213",
+    "action_type": "watcher_start",
+    "target": "gmail_watcher",
+    "approval_status": "auto",
+    "result": "started"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:11.822320",
+    "action_type": "linkedin_engagement",
+    "target": "LINKEDIN_MESSAGE_Test_User_-_CEO_20260314_124011.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:11.873820",
+    "action_type": "task_processing",
+    "target": "LINKEDIN_MESSAGE_Test_User_-_CEO_20260314_124011.md",
+    "approval_status": "requires_approval",
+    "result": "moved_to_pending"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.141481",
+    "action_type": "calendar_event",
+    "target": "CALENDAR_UPCOMING_Team_Meeting_20260314_124012.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.189619",
+    "action_type": "social_engagement",
+    "target": "SOCIAL_FACEBOOK_COMMENT_John_D._20260314_124012.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.212561",
+    "action_type": "social_engagement",
+    "target": "SOCIAL_INSTAGRAM_DM_@businesspro_20260314_124012.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.242833",
+    "action_type": "social_engagement",
+    "target": "SOCIAL_X_TWITTER_MENTION_@techceo_20260314_124012.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.287416",
+    "action_type": "finance_transaction",
+    "target": "FINANCE_DEBIT_Software_License_Co_20260314_124012.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.324336",
+    "action_type": "file_drop",
+    "target": "FILE_project_proposal.md_20260314_124012.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.363119",
+    "action_type": "email_detected",
+    "target": "EMAIL_test_email_123.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.444004",
+    "action_type": "message_detected",
+    "target": "WHATSAPP_Client_A_20260314_124012.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.775742",
+    "action_type": "task_processing",
+    "target": "CALENDAR_UPCOMING_Team_Meeting_20260314_124012.md",
+    "approval_status": "auto_approved",
+    "result": "completed"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.824536",
+    "action_type": "task_processing",
+    "target": "EMAIL_test_email_123.md",
+    "approval_status": "requires_approval",
+    "result": "moved_to_pending"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.860307",
+    "action_type": "task_processing",
+    "target": "FILE_project_proposal.md_20260314_124012.md",
+    "approval_status": "auto_approved",
+    "result": "completed"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.894307",
+    "action_type": "task_processing",
+    "target": "FINANCE_DEBIT_Software_License_Co_20260314_124012.md",
+    "approval_status": "auto_approved",
+    "result": "completed"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.932597",
+    "action_type": "task_processing",
+    "target": "SOCIAL_FACEBOOK_COMMENT_John_D._20260314_124012.md",
+    "approval_status": "auto_approved",
+    "result": "completed"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:12.972405",
+    "action_type": "task_processing",
+    "target": "SOCIAL_INSTAGRAM_DM_@businesspro_20260314_124012.md",
+    "approval_status": "auto_approved",
+    "result": "completed"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:13.018372",
+    "action_type": "task_processing",
+    "target": "SOCIAL_X_TWITTER_MENTION_@techceo_20260314_124012.md",
+    "approval_status": "auto_approved",
+    "result": "completed"
+  },
+  {
+    "timestamp": "2026-03-14T12:40:13.063267",
+    "action_type": "task_processing",
+    "target": "WHATSAPP_Client_A_20260314_124012.md",
+    "approval_status": "requires_approval",
+    "result": "moved_to_pending"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:17.996759",
+    "action_type": "linkedin_engagement",
+    "target": "LINKEDIN_MESSAGE_Test_CEO_20260314_124217.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:18.296805",
+    "action_type": "calendar_event",
+    "target": "CALENDAR_UPCOMING_Team_Sync_20260314_124218.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:18.350978",
+    "action_type": "social_engagement",
+    "target": "SOCIAL_FACEBOOK_COMMENT_User_A_20260314_124218.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:18.406119",
+    "action_type": "finance_transaction",
+    "target": "FINANCE_DEBIT_Software_Co_20260314_124218.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:18.437370",
+    "action_type": "file_drop",
+    "target": "FILE_proposal.md_20260314_124218.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:18.479403",
+    "action_type": "email_detected",
+    "target": "EMAIL_e1.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:18.550542",
+    "action_type": "message_detected",
+    "target": "WHATSAPP_Client_20260314_124218.md",
+    "approval_status": "auto",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:21.607011",
+    "action_type": "task_processing",
+    "target": "CALENDAR_UPCOMING_Team_Sync_20260314_124218.md",
+    "approval_status": "auto_approved",
+    "result": "completed"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:21.657275",
+    "action_type": "task_processing",
+    "target": "EMAIL_e1.md",
+    "approval_status": "requires_approval",
+    "result": "moved_to_pending"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:21.703174",
+    "action_type": "task_processing",
+    "target": "FILE_proposal.md_20260314_124218.md",
+    "approval_status": "auto_approved",
+    "result": "completed"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:21.764606",
+    "action_type": "task_processing",
+    "target": "FINANCE_DEBIT_Software_Co_20260314_124218.md",
+    "approval_status": "auto_approved",
+    "result": "completed"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:21.825067",
+    "action_type": "task_processing",
+    "target": "LINKEDIN_MESSAGE_Test_CEO_20260314_124217.md",
+    "approval_status": "requires_approval",
+    "result": "moved_to_pending"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:21.876476",
+    "action_type": "task_processing",
+    "target": "SOCIAL_FACEBOOK_COMMENT_User_A_20260314_124218.md",
+    "approval_status": "auto_approved",
+    "result": "completed"
+  },
+  {
+    "timestamp": "2026-03-14T12:42:21.933681",
+    "action_type": "task_processing",
+    "target": "WHATSAPP_Client_20260314_124218.md",
+    "approval_status": "requires_approval",
+    "result": "moved_to_pending"
+  }
+]
